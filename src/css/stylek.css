@@ -5,37 +5,27 @@
     text-decoration:none;
 }
 html,body{
-    widows: 100%;
+    width: 100%;
     height:100%;
-}
-.wrap{
-    width:100%;
-    height:100%;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-}
-.header{
-    width:100%;
-    height:40px;
-    display:flex;
-    justify-content: space-between;
-    align-items:center;
 }
 .content{
-    flex:1;
-}
-.footer{
-    width:100%;
-    height:40px;
-}
-#list{
     width:100%;
     height:100%;
-    display:flex;
-    align-content: space-around;
+    overflow: hidden;
 }
-#list li{
-    width:25%;
-    text-align: center;
+.list{
+    width:100%;
+}
+.list h4{
+    height:40px;
+    background:#eee;
+    padding-left:10px;
+}
+.list_list{
+    width:100%;
+}
+.list_list li{
+    height:40px;
+    border-bottom:1px solid;
+    padding-left:10px;
 }
