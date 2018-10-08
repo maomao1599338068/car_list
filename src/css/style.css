@@ -16,16 +16,25 @@ html,body{
 .list{
     width:100%;
 }
-.list h4{
+.list h2{
     height:40px;
     background:#eee;
     padding-left:10px;
+    line-height: 40px;
 }
-.list_list{
-    width:100%;
-}
-.list_list li{
+
+.list ol>li{
     height:40px;
     border-bottom:1px solid;
     padding-left:10px;
+    line-height: 40px;
+}
+.nav-list{
+    position:fixed;
+    top:10%;
+    right:10px;
+    z-index: 999;
+}
+.nav-list li{
+    height:40px;
 }
